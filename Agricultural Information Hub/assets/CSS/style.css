@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#banner-section{
-  background:rgb(184, 180, 180) url(../img/banner\ 2.jfif);
+#banner-section {
+  background: rgb(184, 180, 180) url(../img/banner\ 2.jfif);
   background-size: cover;
   height: 83vh;
   background-repeat: no-repeat;
@@ -16,7 +16,13 @@
   justify-content: center;
 }
 
-#header-1{
+#header-section {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#header-1 {
   background: rgb(84, 145, 65) url(../img/footer\ banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,20 +35,21 @@
   text-align: center;
 }
 
-
-#footer-section{
-  background:rgb(31, 110, 35) url(../img/footer\ banner\ 1.jfif);
+#footer-section {
+  background: rgb(31, 110, 35) url(../img/footer\ banner\ 1.jfif);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
 }
 
-.card{
+.card {
   height: 100%;
 }
 
-#Featured-highlighting .row .card:hover{
+#Featured-highlighting .row .card:hover {
   background-color: rgb(189, 248, 186);
 }
 
-.hover-opacity-100:hover { opacity: 1 !important; }
+.hover-opacity-100:hover {
+  opacity: 1 !important;
+}

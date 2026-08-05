@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#home-banner{
-  background:rgb(107, 106, 106) url(../img/banner-footer.jpg);
+#home-banner {
+  background: rgb(107, 106, 106) url(../img/banner-footer.jpg);
   background-size: cover;
   height: 85vh;
   background-repeat: no-repeat;
@@ -15,9 +15,25 @@
   align-items: center;
 }
 
+#banner-1-section {
+  background: url(../img/brk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
 
-#home-banner{
-  background:rgb(107, 106, 106) url(../img/banner-footer.jpg);
+#header-section {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#home-banner {
+  background: rgb(107, 106, 106) url(../img/banner-footer.jpg);
   background-size: cover;
   height: 30vh;
   background-repeat: no-repeat;
@@ -27,8 +43,8 @@
   align-items: center;
 }
 
-#footer-section{
-  background:rgb(107, 106, 106) url(../img/banner-footer.jpg);
+#footer-section {
+  background: rgb(107, 106, 106) url(../img/banner-footer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
