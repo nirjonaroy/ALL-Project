@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#banner-section{
+  background:rgb(184, 180, 180) url(../img/banner\ 2.jfif);
+  background-size: cover;
+  height: 83vh;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#header-1{
+  background: rgb(84, 145, 65) url(../img/footer\ banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#footer-section{
+  background:rgb(31, 110, 35) url(../img/footer\ banner\ 1.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.card{
+  height: 100%;
+}
+
+#Featured-highlighting .row .card:hover{
+  background-color: rgb(189, 248, 186);
+}
+
+.hover-opacity-100:hover { opacity: 1 !important; }

@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#banner1-section{
+  background: rgb(238, 220, 241);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+#banner-section{
+  background: rgb(171, 181, 236);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.service-card { 
+  transition: transform 0.3s ease,
+  box-shadow 0.3s ease;
+ }
+
+.service-card:hover {
+  transform: translateY(-10px);
+   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+ }
+
+
+ .tracking-wide {
+   letter-spacing: 1.5px; 
+  }
+
+.hover-lift { 
+  transition: transform 0.3s ease, 
+  box-shadow 0.3s ease; 
+}
+
+.hover-lift:hover { 
+  transform: translateY(-5px); 
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.15)!important; 
+}
+
+.skill-tag { 
+  transition: all 0.2s ease; 
+  cursor: default; 
+}
+
+.skill-tag:hover { 
+  background-color: var(--bs-primary) !important; 
+  color: white !important; 
+  border-color: var(--bs-primary) !important; 
+  transform: scale(1.05); 
+}
+
+.tech-logo { 
+  max-height: 40px; 
+  filter: grayscale(100%); 
+  transition: filter 0.3s ease; 
+  transform: 0.3s ease; 
+}
+
+.tech-logo:hover { 
+  filter: grayscale(0%); 
+  transform: scale(1.1); 
+}
+
+.tracking-wide { 
+  letter-spacing: 1.5px; 
+}
+
+.hover-lift { 
+  transition: transform 0.3s ease, 
+  box-shadow 0.3s ease; 
+  border: 1px solid transparent; 
+}
+
+.hover-lift:hover { 
+  transform: translateY(-5px); 
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.15)!important; 
+  border-color: var(--bs-primary); 
+}
+
+.hover-opacity-100:hover { 
+  opacity: 1 !important;
+ }
